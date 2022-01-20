@@ -1,0 +1,10 @@
+C:\Users\flor\source\repos\SoftphonesManager\SoftphonesManager\bin\Debug\SoftphonesManager.exe.config
+C:\Users\flor\source\repos\SoftphonesManager\SoftphonesManager\bin\Debug\SoftphonesManager.exe
+C:\Users\flor\source\repos\SoftphonesManager\SoftphonesManager\bin\Debug\SoftphonesManager.pdb
+C:\Users\flor\source\repos\SoftphonesManager\SoftphonesManager\obj\Debug\SoftphonesManager.csprojAssemblyReference.cache
+C:\Users\flor\source\repos\SoftphonesManager\SoftphonesManager\obj\Debug\SoftphonesManager.Form1.resources
+C:\Users\flor\source\repos\SoftphonesManager\SoftphonesManager\obj\Debug\SoftphonesManager.Properties.Resources.resources
+C:\Users\flor\source\repos\SoftphonesManager\SoftphonesManager\obj\Debug\SoftphonesManager.csproj.GenerateResource.cache
+C:\Users\flor\source\repos\SoftphonesManager\SoftphonesManager\obj\Debug\SoftphonesManager.csproj.CoreCompileInputs.cache
+C:\Users\flor\source\repos\SoftphonesManager\SoftphonesManager\obj\Debug\SoftphonesManager.exe
+C:\Users\flor\source\repos\SoftphonesManager\SoftphonesManager\obj\Debug\SoftphonesManager.pdb
