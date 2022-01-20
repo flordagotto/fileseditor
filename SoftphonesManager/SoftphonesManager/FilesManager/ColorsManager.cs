@@ -17,11 +17,12 @@ namespace SoftphonesManager.FilesManager
             ColorAccent = accentColor;
         }
 
-        public void ModifyFile(string path)
+        public void ModifyFile(string path, string appName)
         {
             try
             {
                 var line = 0;
+                var newPath = Service.GetPath() + "\\Media\\" + appName + "\\colors.xml";
                 string[] lineas = File.ReadAllLines(path);
 
                 foreach (var linea in lineas)
@@ -33,7 +34,7 @@ namespace SoftphonesManager.FilesManager
 
                     line++;
                 }
-                File.WriteAllLines(path, lineas);
+                File.WriteAllLines(newPath, lineas);
 
             }
             catch (Exception e)
