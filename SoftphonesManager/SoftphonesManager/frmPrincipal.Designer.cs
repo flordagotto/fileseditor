@@ -71,7 +71,7 @@
             this.pnlColors.Location = new System.Drawing.Point(219, 60);
             this.pnlColors.Margin = new System.Windows.Forms.Padding(4);
             this.pnlColors.Name = "pnlColors";
-            this.pnlColors.Size = new System.Drawing.Size(263, 53);
+            this.pnlColors.Size = new System.Drawing.Size(346, 53);
             this.pnlColors.TabIndex = 1;
             this.pnlColors.DragDrop += new System.Windows.Forms.DragEventHandler(this.pnlColors_DragDrop);
             this.pnlColors.DragEnter += new System.Windows.Forms.DragEventHandler(this.pnlColors_DragEnter);
@@ -94,7 +94,7 @@
             this.pnlEs.Location = new System.Drawing.Point(219, 155);
             this.pnlEs.Margin = new System.Windows.Forms.Padding(4);
             this.pnlEs.Name = "pnlEs";
-            this.pnlEs.Size = new System.Drawing.Size(263, 53);
+            this.pnlEs.Size = new System.Drawing.Size(346, 53);
             this.pnlEs.TabIndex = 3;
             this.pnlEs.DragDrop += new System.Windows.Forms.DragEventHandler(this.pnlEs_DragDrop);
             this.pnlEs.DragEnter += new System.Windows.Forms.DragEventHandler(this.pnlEs_DragEnter);
@@ -128,7 +128,7 @@
             this.pnlPt.Location = new System.Drawing.Point(219, 252);
             this.pnlPt.Margin = new System.Windows.Forms.Padding(4);
             this.pnlPt.Name = "pnlPt";
-            this.pnlPt.Size = new System.Drawing.Size(263, 53);
+            this.pnlPt.Size = new System.Drawing.Size(346, 53);
             this.pnlPt.TabIndex = 3;
             this.pnlPt.DragDrop += new System.Windows.Forms.DragEventHandler(this.pnlPt_DragDrop);
             this.pnlPt.DragEnter += new System.Windows.Forms.DragEventHandler(this.pnlPt_DragEnter);
@@ -162,7 +162,7 @@
             this.pnlEn.Location = new System.Drawing.Point(219, 345);
             this.pnlEn.Margin = new System.Windows.Forms.Padding(4);
             this.pnlEn.Name = "pnlEn";
-            this.pnlEn.Size = new System.Drawing.Size(263, 53);
+            this.pnlEn.Size = new System.Drawing.Size(346, 53);
             this.pnlEn.TabIndex = 3;
             this.pnlEn.DragDrop += new System.Windows.Forms.DragEventHandler(this.pnlEn_DragDrop);
             this.pnlEn.DragEnter += new System.Windows.Forms.DragEventHandler(this.pnlEn_DragEnter);
@@ -195,7 +195,7 @@
             this.pnlIc.Location = new System.Drawing.Point(725, 60);
             this.pnlIc.Margin = new System.Windows.Forms.Padding(4);
             this.pnlIc.Name = "pnlIc";
-            this.pnlIc.Size = new System.Drawing.Size(263, 53);
+            this.pnlIc.Size = new System.Drawing.Size(371, 53);
             this.pnlIc.TabIndex = 3;
             this.pnlIc.DragDrop += new System.Windows.Forms.DragEventHandler(this.pnlIc_DragDrop);
             this.pnlIc.DragEnter += new System.Windows.Forms.DragEventHandler(this.pnlIc_DragEnter);
@@ -213,7 +213,7 @@
             // 
             // btnEnviar
             // 
-            this.btnEnviar.Location = new System.Drawing.Point(852, 489);
+            this.btnEnviar.Location = new System.Drawing.Point(960, 489);
             this.btnEnviar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEnviar.Name = "btnEnviar";
             this.btnEnviar.Size = new System.Drawing.Size(136, 52);
@@ -250,14 +250,14 @@
             this.txtCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCliente.Location = new System.Drawing.Point(725, 195);
             this.txtCliente.Name = "txtCliente";
-            this.txtCliente.Size = new System.Drawing.Size(263, 26);
+            this.txtCliente.Size = new System.Drawing.Size(371, 26);
             this.txtCliente.TabIndex = 8;
             // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1007, 554);
+            this.ClientSize = new System.Drawing.Size(1109, 554);
             this.Controls.Add(this.txtCliente);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.chMantener);

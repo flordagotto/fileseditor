@@ -102,6 +102,7 @@ namespace SoftphonesManager
             this.txtAccent.Name = "txtAccent";
             this.txtAccent.Size = new System.Drawing.Size(169, 22);
             this.txtAccent.TabIndex = 8;
+            this.txtAccent.Text = "#121212";
             // 
             // txtPrimary
             // 
@@ -109,6 +110,7 @@ namespace SoftphonesManager
             this.txtPrimary.Name = "txtPrimary";
             this.txtPrimary.Size = new System.Drawing.Size(169, 22);
             this.txtPrimary.TabIndex = 9;
+            this.txtPrimary.Text = "#131313";
             // 
             // txtWebEn
             // 
@@ -116,6 +118,7 @@ namespace SoftphonesManager
             this.txtWebEn.Name = "txtWebEn";
             this.txtWebEn.Size = new System.Drawing.Size(169, 22);
             this.txtWebEn.TabIndex = 11;
+            this.txtWebEn.Text = "webRn";
             // 
             // txtNameEn
             // 
@@ -123,6 +126,7 @@ namespace SoftphonesManager
             this.txtNameEn.Name = "txtNameEn";
             this.txtNameEn.Size = new System.Drawing.Size(169, 22);
             this.txtNameEn.TabIndex = 10;
+            this.txtNameEn.Text = "nameEn";
             // 
             // txtWebPt
             // 
@@ -130,6 +134,7 @@ namespace SoftphonesManager
             this.txtWebPt.Name = "txtWebPt";
             this.txtWebPt.Size = new System.Drawing.Size(169, 22);
             this.txtWebPt.TabIndex = 13;
+            this.txtWebPt.Text = "webPt";
             // 
             // txtNamePt
             // 
@@ -137,6 +142,7 @@ namespace SoftphonesManager
             this.txtNamePt.Name = "txtNamePt";
             this.txtNamePt.Size = new System.Drawing.Size(169, 22);
             this.txtNamePt.TabIndex = 12;
+            this.txtNamePt.Text = "namePt";
             // 
             // txtWebEs
             // 
@@ -144,6 +150,7 @@ namespace SoftphonesManager
             this.txtWebEs.Name = "txtWebEs";
             this.txtWebEs.Size = new System.Drawing.Size(169, 22);
             this.txtWebEs.TabIndex = 15;
+            this.txtWebEs.Text = "webEs";
             // 
             // txtNameEs
             // 
@@ -151,6 +158,7 @@ namespace SoftphonesManager
             this.txtNameEs.Name = "txtNameEs";
             this.txtNameEs.Size = new System.Drawing.Size(169, 22);
             this.txtNameEs.TabIndex = 14;
+            this.txtNameEs.Text = "nameEs";
             // 
             // label1
             // 
@@ -234,7 +242,7 @@ namespace SoftphonesManager
             this.btnGenerar.UseVisualStyleBackColor = true;
             this.btnGenerar.Click += new System.EventHandler(this.btnGenerar_Click);
             // 
-            // Values
+            // frmValues
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -260,7 +268,7 @@ namespace SoftphonesManager
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label6);
-            this.Name = "Values";
+            this.Name = "frmValues";
             this.Text = "Values";
             this.ResumeLayout(false);
             this.PerformLayout();

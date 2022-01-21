@@ -22,7 +22,12 @@ namespace SoftphonesManager.FilesManager
             try
             {
                 var line = 0;
-                var newPath = Service.GetPath() + "\\Media\\" + appName + "\\colors.xml";
+                var newPath = Service.GetPath() + "\\Media\\" + appName;
+                if (!Directory.Exists(newPath))
+                {
+                    DirectoryInfo di = Directory.CreateDirectory(newPath);
+                }
+
                 string[] lineas = File.ReadAllLines(path);
 
                 foreach (var linea in lineas)
@@ -34,7 +39,7 @@ namespace SoftphonesManager.FilesManager
 
                     line++;
                 }
-                File.WriteAllLines(newPath, lineas);
+                File.WriteAllLines(newPath + "\\colors.xml", lineas);
 
             }
             catch (Exception e)

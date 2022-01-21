@@ -22,7 +22,7 @@ namespace SoftphonesManager
         public frmPrincipal()
         {
             InitializeComponent();
-            SetPaths();
+            SetPathsDefault();
             lblColors.Text = colorsPath;
             lblEs.Text = valuesEsPath;
             lblPt.Text = valuesPtPath;
@@ -30,6 +30,15 @@ namespace SoftphonesManager
         }
 
         private void SetPaths()
+        {
+            var path = Service.GetPath();
+            this.colorsPath = lblColors.Text;
+            this.valuesEsPath = lblEs.Text;
+            this.valuesPtPath = lblPt.Text;
+            this.valuesEnPath = lblEn.Text;
+        }
+
+        private void SetPathsDefault()
         {
             var path = Service.GetPath();
             this.colorsPath = path + "\\Strings\\colors.xml";
@@ -108,9 +117,13 @@ namespace SoftphonesManager
         {
             if (chMantener.Checked)
             {
-                SetPaths();
-                SetLabels();
+                SetPathsDefault();
             }
+            else
+            {
+                SetPaths();
+            }
+            SetLabels();
         }
 
         private void btnEnviar_Click(object sender, EventArgs e)

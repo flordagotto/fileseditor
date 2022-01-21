@@ -33,13 +33,13 @@ namespace SoftphonesManager
                 return;
 
             colorPrimary = txtPrimary.Text;
-            colorAccent = txtPrimary.Text;
-            nameEs = txtPrimary.Text;
-            websiteEs = txtPrimary.Text;
-            nameEn = txtPrimary.Text;
-            websiteEn = txtPrimary.Text;
-            namePt = txtPrimary.Text;
-            websitePt = txtPrimary.Text;
+            colorAccent = txtAccent.Text;
+            nameEs = txtNameEs.Text;
+            websiteEs = txtWebEs.Text;
+            nameEn = txtNameEn.Text;
+            websiteEn = txtWebEn.Text;
+            namePt = txtNamePt.Text;
+            websitePt = txtWebPt.Text;
 
             this.Dispose();
         }

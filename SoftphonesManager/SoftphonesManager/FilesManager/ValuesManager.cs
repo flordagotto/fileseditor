@@ -18,7 +18,12 @@ namespace SoftphonesManager.FilesManager
             try
             {
                 var line = 0;
-                var newPath = Service.GetPath() + "\\Media\\" + appName + "\\" + language + "\\string.xml";
+                var newPath = Service.GetPath() + "\\Media\\" + appName + "\\" + language;
+                if (!Directory.Exists(newPath))
+                {
+                    DirectoryInfo di = Directory.CreateDirectory(newPath);
+                }
+
                 string[] lineas = File.ReadAllLines(path);
 
                 foreach (var linea in lineas)
@@ -30,7 +35,7 @@ namespace SoftphonesManager.FilesManager
                     }
                     line++;
                 }
-                File.WriteAllLines(newPath, lineas);
+                File.WriteAllLines(newPath + "\\string.xml", lineas);
             }
             catch (Exception e)
             {

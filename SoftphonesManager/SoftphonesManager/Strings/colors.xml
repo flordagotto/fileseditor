@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#6A489A</color>
+    <color name="colorPrimary">#53A5DB</color>
+    <color name="empty_contact_color">#bd1622</color>
+
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+
+    <color name="color_bc_activity">#F2F5EE</color>
+    <color name="color_line">#ddd</color>
+    <color name="shadow_grey">#3333</color>
+
+    <color name="gray_text">#5F5F5F</color>
+    <color name="gray_subtext">#aaa</color>
+
+    <color name="call_options_border">#ddd</color>
+
+    <color name="red_status">#f00</color>
+    <color name="green_status">#93ce5e</color>
+
+</resources>
